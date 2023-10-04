@@ -1,4 +1,138 @@
+@media only screen and (max-width: 480px) {
+  .home-container {
+    background-color: #ffffffcc; /* Cor de fundo opcional */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 999; /* Certifique-se de que o cabeçalho apareça sobre outros elementos */
+  }
+  
+  /* Estilo para a imagem da logo */
+  .logo-image {
+    max-width: 13vh; /* Ajuste o tamanho da imagem conforme necessário */
+  }
+  
+  /* Estilo para os links */
+  .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre a imagem e os links */
+  }
+  
+  .link-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 0 32px; /* Espaço entre os links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+    text-decoration: none; /* Remova a decoração de sublinhado dos links */
+    color: #333; /* Cor dos links */
+  }
+  
+  /* Estilo para os links quando passar o mouse por cima */
+  .link-h2:hover {
+    color: #ff6600; /* Cor de destaque quando passar o mouse por cima */
+  }
+}
 
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .home-container {
+    background-color: #ffffffcc; /* Cor de fundo opcional */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 999; /* Certifique-se de que o cabeçalho apareça sobre outros elementos */
+  }
+  
+  /* Estilo para a imagem da logo */
+  .logo-image {
+    max-width: 13vh; /* Ajuste o tamanho da imagem conforme necessário */
+  }
+  
+  /* Estilo para os links */
+  .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre a imagem e os links */
+  }
+  
+  .link-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 0 60px; /* Espaço entre os links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+    text-decoration: none; /* Remova a decoração de sublinhado dos links */
+    color: #333; /* Cor dos links */
+  }
+  
+  /* Estilo para os links quando passar o mouse por cima */
+  .link-h2:hover {
+    color: #ff6600; /* Cor de destaque quando passar o mouse por cima */
+  }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .home-container {
+    background-color: #ffffffcc; /* Cor de fundo opcional */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 999; /* Certifique-se de que o cabeçalho apareça sobre outros elementos */
+  }
+  
+  /* Estilo para a imagem da logo */
+  .logo-image {
+    max-width: 13vh; /* Ajuste o tamanho da imagem conforme necessário */
+  }
+  
+  /* Estilo para os links */
+  .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre a imagem e os links */
+  }
+  
+  .link-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 0 60px; /* Espaço entre os links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+    text-decoration: none; /* Remova a decoração de sublinhado dos links */
+    color: #333; /* Cor dos links */
+  }
+  
+  /* Estilo para os links quando passar o mouse por cima */
+  .link-h2:hover {
+    color: #ff6600; /* Cor de destaque quando passar o mouse por cima */
+  }
+}
+
+
+
+@media only screen and (min-width: 1201px) {
 /* Estilo para o container do cabeçalho */
 .home-container {
   background-color: #ffffffcc; /* Cor de fundo opcional */
@@ -39,6 +173,7 @@
 /* Estilo para os links quando passar o mouse por cima */
 .link-h2:hover {
   color: #ff6600; /* Cor de destaque quando passar o mouse por cima */
+  transform: scale(1.1);
 }
 
-
+}

@@ -1,10 +1,254 @@
-body {
+.page-construction {
+  display: flex;
+  background-color: rgba(245, 243, 243, 0.607);
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: baseline; /* Centraliza verticalmente */
+  margin-bottom: 100vh;
+  margin-left: 50lvh;
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.page-construction h1 {
+  font-size: 5rem; /* Define o tamanho da fonte como grande */
+}
+
+@media only screen and (max-width: 480px) {
+  body, html {
+    margin: 0;
+    width: 80vh;
+    height: 140vh;
+    background-image: url('../styles/imagens/home-usemaarte.jpg');
+    background-size: 120% auto; /* Largura 100%, altura automática */
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: left center;
+  }
+
+  .text-home h2 {
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+    font-size: 10px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: rgb(46, 43, 43);
+    position: absolute; /* Define a posição absoluta */
+    top: 45vh; /* Define a distância a partir do topo da página */
+    left: 2vh; /* Define a distância a partir da esquerda da página */
+    width: 50%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+    max-width: 185px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+  }
+  
+  .text-home-2 h2 {
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+    font-size: 10px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: rgb(46, 43, 43);
+    position: absolute; /* Define a posição absoluta */
+    top: 85vh; /* Define a distância a partir do topo da página */
+    left: 2vh; /* Define a distância a partir da esquerda da página */
+    width: 70%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+    max-width: 185px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+  }
+  
+  .animation {
+    animation: animation 1s ease-in forwards;
+  }
+  
+  @keyframes animation {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(100px);
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body, html {
+    margin: 0;
+    width: 100vh;
+    height: 140vh;
+    background-image: url('../styles/imagens/home-usemaarte.jpg');
+    background-size: 120% auto; /* Largura 100%, altura automática */
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: left center;
+  }
+
+
+  .text-home h2 {
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+    font-size: 14px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: rgb(46, 43, 43);
+    position: absolute; /* Define a posição absoluta */
+    top: 45vh; /* Define a distância a partir do topo da página */
+    left: 2vh; /* Define a distância a partir da esquerda da página */
+    width: 50%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+    max-width: 285px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+  }
+  
+  .text-home-2 h2 {
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+    font-size: 14px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: rgb(46, 43, 43);
+    position: absolute; /* Define a posição absoluta */
+    top: 85vh; /* Define a distância a partir do topo da página */
+    left: 2vh; /* Define a distância a partir da esquerda da página */
+    width: 70%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+    max-width: 285px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+  }
+  
+  .animation {
+    animation: animation 1s ease-in forwards;
+  }
+  
+  @keyframes animation {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(100px);
+    }
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  body, html {
+    margin: 0;
+    width: 100vh;
+    height: 140vh;
+    background-image: url('../styles/imagens/home-usemaarte.jpg');
+    background-size: 120% auto; /* Largura 100%, altura automática */
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: left center;
+  }
+
+
+  .text-home h2 {
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+    font-size: 14px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: rgb(46, 43, 43);
+    position: absolute; /* Define a posição absoluta */
+    top: 45vh; /* Define a distância a partir do topo da página */
+    left: 2vh; /* Define a distância a partir da esquerda da página */
+    width: 50%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+    max-width: 285px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+  }
+  
+  .text-home-2 h2 {
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+    font-size: 14px ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: rgb(46, 43, 43);
+    position: absolute; /* Define a posição absoluta */
+    top: 85vh; /* Define a distância a partir do topo da página */
+    left: 2vh; /* Define a distância a partir da esquerda da página */
+    width: 70%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+    max-width: 285px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+  }
+  
+  .animation {
+    animation: animation 1s ease-in forwards;
+  }
+  
+  @keyframes animation {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(100px);
+    }
+  }
+}
+
+
+
+@media only screen and (min-width: 1201px) {
+
+body, html {
   margin: 0;
   height: 250vh;
   background-image: url('../styles/imagens/home-usemaarte.jpg');
   background-size: 120% auto; /* Largura 100%, altura automática */
   background-repeat: no-repeat;
-
+  overflow-x: hidden;
   background-position: left center;
 }
 
+.text-home h2 {
+  background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+  font-size: 30px ;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.9em;
+  color: rgb(46, 43, 43);
+  position: absolute; /* Define a posição absoluta */
+  top: 75vh; /* Define a distância a partir do topo da página */
+  left: 5vh; /* Define a distância a partir da esquerda da página */
+  width: 70%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+  max-width: 535px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+}
+
+.text-home-2 h2 {
+  background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+  box-decoration-break: clone; 
+  font-size: 30px ;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.9em;
+  color: rgb(46, 43, 43);
+  position: absolute; /* Define a posição absoluta */
+  top: 175vh; /* Define a distância a partir do topo da página */
+  left: 5vh; /* Define a distância a partir da esquerda da página */
+  width: 70%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
+  max-width: 580px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
+}
+
+.animation {
+  animation: animation 1s ease-in forwards;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(100px);
+  }
+}
+}
