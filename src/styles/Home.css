@@ -1,16 +1,3 @@
-.page-construction {
-  display: flex;
-  background-color: rgba(245, 243, 243, 0.607);
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: baseline; /* Centraliza verticalmente */
-  margin-bottom: 100vh;
-  margin-left: 50lvh;
-  text-align: center; /* Centraliza o texto horizontalmente */
-}
-
-.page-construction h1 {
-  font-size: 5rem; /* Define o tamanho da fonte como grande */
-}
 
 @media only screen and (max-width: 480px) {
   body, html {
@@ -18,22 +5,22 @@
     width: 80vh;
     height: 140vh;
     background-image: url('../styles/imagens/home-usemaarte.jpg');
-    background-size: 120% auto; /* Largura 100%, altura automática */
+    background-size: 120% auto; 
     background-repeat: no-repeat;
     overflow-x: hidden;
     background-position: left center;
   }
 
   .text-home h2 {
-    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); /* Define o fundo como uma linha amarela */
+    background: linear-gradient(90deg, rgba(255, 255, 252, 0.332) 100%, transparent 50%); 
   box-decoration-break: clone; 
     font-size: 10px ;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     line-height: 1.9em;
     color: rgb(46, 43, 43);
-    position: absolute; /* Define a posição absoluta */
-    top: 45vh; /* Define a distância a partir do topo da página */
+    position: absolute;
+    top: 45vh; 
     left: 2vh; /* Define a distância a partir da esquerda da página */
     width: 50%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
     max-width: 185px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
@@ -47,8 +34,8 @@
     font-weight: 600;
     line-height: 1.9em;
     color: rgb(46, 43, 43);
-    position: absolute; /* Define a posição absoluta */
-    top: 85vh; /* Define a distância a partir do topo da página */
+    position: absolute;
+    top: 85vh; 
     left: 2vh; /* Define a distância a partir da esquerda da página */
     width: 70%; /* Define a largura máxima do h2 para evitar que vá de uma ponta a outra */
     max-width: 185px; /* Defina um valor de largura máxima para evitar que o texto se estenda demais */
