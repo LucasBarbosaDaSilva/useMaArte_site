@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  height: 250vh;
+  background-image: url('../styles/imagens/home-usemaarte.jpg');
+  background-size: 120% auto; /* Largura 100%, altura automática */
+  background-repeat: no-repeat;
+
+  background-position: left center;
+}
+
