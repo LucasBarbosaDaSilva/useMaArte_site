@@ -1,0 +1,50 @@
+.page-construction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+  justify-content: center;
+  align-items: center;
+  gap: 7vh; /* Espaço entre os cards */
+  width: 120vh;
+  height: 100vh;
+  padding: 25vh;
+  margin-left: 5vh;
+ 
+}
+
+/* Estilos para cada card */
+.clothes-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Largura 100% para ocupar uma coluna inteira */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 1%;
+}
+
+.clothes-card:hover {
+  transform: scale(1.05);
+}
+
+.bg-image-div:hover {
+  background-image: url('../styles/imagens/roupas/foto1-costas.jpg');
+}
+
+.bg-image-div {
+  background-image: url('../styles/imagens/roupas/foto1-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+/* Estilos para os parágrafos de descrição, preço e parcelamento */
+
+.clothes-card p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px; /* Adicione margem inferior para espaço entre os parágrafos */
+}

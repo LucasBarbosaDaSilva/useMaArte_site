@@ -165,7 +165,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   margin: 0 70px; /* Espaço entre os links */
-  font-size: 16px; /* Tamanho da fonte dos links */
+  font-size: 18px; /* Tamanho da fonte dos links */
   text-decoration: none; /* Remova a decoração de sublinhado dos links */
   color: #333; /* Cor dos links */
 }

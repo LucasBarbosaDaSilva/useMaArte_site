@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Whats from "../components/Whats";
+import Footer from "../components/Footer";
 import PropTypes from "prop-types";
 import "../styles/Home.css";
 
@@ -25,6 +26,7 @@ function Home({ prevScrollPos }) {
           </h2>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

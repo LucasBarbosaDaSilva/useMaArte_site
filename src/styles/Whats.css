@@ -89,13 +89,13 @@
   #whats-container .whatsapp-link {
     z-index: 99;
     position: fixed;
-    bottom: 45%;
+    bottom: 15%;
     right: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 53px;
-    height: 53px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #25d366;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -109,7 +109,7 @@
   }
 
   .whatsapp-link img {
-    width: 35px;
-    height: 35px;
+    width: 48px;
+    height: 48px;
   }
 }
