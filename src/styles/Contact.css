@@ -6,7 +6,8 @@
     justify-content: center;
     background-color: rgba(216, 216, 216, 0.762);
    margin-top: 33vh;
-   padding: 10px;
+   margin-left: 1vh;
+   padding: 8px;
   }
   
   /* Estilo para a primeira div (Informações para contato) */
