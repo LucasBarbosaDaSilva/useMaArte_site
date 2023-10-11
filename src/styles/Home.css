@@ -189,11 +189,13 @@ body, html {
   background-repeat: no-repeat;
   overflow-x: hidden;
   background-position: left center;
+  text-decoration: none !important;
+
 }
 
 .text-home h2 {
   box-decoration-break: clone; 
-  font-size: 60px ;
+  font-size: 40px ;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 1.9em;
@@ -207,7 +209,7 @@ body, html {
 
 .text-home-2 h2 {
   box-decoration-break: clone; 
-  font-size: 60px ;
+  font-size: 40px ;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   line-height: 1.9em;

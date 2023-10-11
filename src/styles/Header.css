@@ -159,6 +159,8 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px; /* Espaço entre a imagem e os links */
+  text-decoration: none;
+
 }
 
 .link-h2 {
@@ -166,8 +168,9 @@
   font-weight: 500;
   margin: 0 70px; /* Espaço entre os links */
   font-size: 18px; /* Tamanho da fonte dos links */
-  text-decoration: none; /* Remova a decoração de sublinhado dos links */
+  text-decoration: none !important;
   color: #333; /* Cor dos links */
+
 }
 
 /* Estilo para os links quando passar o mouse por cima */

@@ -1,38 +1,107 @@
-.page-construction {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
-  justify-content: center;
-  align-items: center;
-  gap: 7vh; /* Espaço entre os cards */
-  width: 120vh;
-  height: 100vh;
-  padding: 25vh;
-  margin-left: 5vh;
- 
-}
+@media only screen and (max-width: 480px) {
+  .page-construction {
+    grid-template-columns: repeat(auto-fill, 312px);
+    grid-template-rows: 1fr 1fr;
+    width: auto; /* Defina a largura de volta para o tamanho automático */
+    padding: 2vh; /* Ajuste o preenchimento para telas menores */
+    margin-left: 5vh;
+    margin-top: 25vh; /* Remova a margem esquerda */
+  }
 
-/* Estilos para cada card */
-.clothes-card {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Largura 100% para ocupar uma coluna inteira */
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s;
-  border-radius: 1%;
-}
+  /* Ajuste a altura dos cards conforme necessário para telas menores */
+  .clothes-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Largura 100% para ocupar uma coluna inteira */
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 1%;
+    height: 60vh; /* Ajuste conforme necessário */
+    margin-bottom: 2vh;
+  }
+
 
 .clothes-card:hover {
   transform: scale(1.05);
 }
 
+/*Foto 1 */
+
 .bg-image-div:hover {
-  background-image: url('../styles/imagens/roupas/foto1-costas.jpg');
+  background-image: url('../styles/imagens/roupas/Foto1-costas.jpg');
 }
 
 .bg-image-div {
-  background-image: url('../styles/imagens/roupas/foto1-frente.jpg');
+  background-image: url('../styles/imagens/roupas/Foto1-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+/*Foto 2 */
+
+.bg-image-div-2:hover {
+  background-image: url('../styles/imagens/roupas/Foto2-costas.jpg');
+}
+
+.bg-image-div-2 {
+  background-image: url('../styles/imagens/roupas/Foto2-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-3:hover {
+  background-image: url('../styles/imagens/roupas/Foto3-costas.jpg');
+}
+
+.bg-image-div-3 {
+  background-image: url('../styles/imagens/roupas/Foto3-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-4:hover {
+  background-image: url('../styles/imagens/roupas/Foto4-costas.jpg');
+}
+
+.bg-image-div-4 {
+  background-image: url('../styles/imagens/roupas/Foto4-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-5:hover {
+  background-image: url('../styles/imagens/roupas/Foto5-costas.jpg');
+}
+
+.bg-image-div-5 {
+  background-image: url('../styles/imagens/roupas/Foto5-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-6:hover {
+  background-image: url('../styles/imagens/roupas/Foto6-costas.jpg');
+}
+
+.bg-image-div-6 {
+  background-image: url('../styles/imagens/roupas/Foto6-frente.jpg');
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -47,4 +116,127 @@
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px; /* Adicione margem inferior para espaço entre os parágrafos */
+}
+}
+
+@media only screen and (min-width: 1201px) {
+.page-construction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+  justify-content: center;
+  align-items: center;
+  gap: 7vh; /* Espaço entre os cards */
+  width: 120vh;
+  height: 100vh;
+  padding: 25vh;
+  margin-left: 9vh;
+ 
+}
+
+/* Estilos para cada card */
+.clothes-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Largura 100% para ocupar uma coluna inteira */
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 1%;
+}
+
+.clothes-card:hover {
+  transform: scale(1.05);
+}
+
+/*Foto 1 */
+
+.bg-image-div:hover {
+  background-image: url('../styles/imagens/roupas/Foto1-costas.jpg');
+}
+
+.bg-image-div {
+  background-image: url('../styles/imagens/roupas/Foto1-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+/*Foto 2 */
+
+.bg-image-div-2:hover {
+  background-image: url('../styles/imagens/roupas/Foto2-costas.jpg');
+}
+
+.bg-image-div-2 {
+  background-image: url('../styles/imagens/roupas/Foto2-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-3:hover {
+  background-image: url('../styles/imagens/roupas/Foto3-costas.jpg');
+}
+
+.bg-image-div-3 {
+  background-image: url('../styles/imagens/roupas/Foto3-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-4:hover {
+  background-image: url('../styles/imagens/roupas/Foto4-costas.jpg');
+}
+
+.bg-image-div-4 {
+  background-image: url('../styles/imagens/roupas/Foto4-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-5:hover {
+  background-image: url('../styles/imagens/roupas/Foto5-costas.jpg');
+}
+
+.bg-image-div-5 {
+  background-image: url('../styles/imagens/roupas/Foto5-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+.bg-image-div-6:hover {
+  background-image: url('../styles/imagens/roupas/Foto6-costas.jpg');
+}
+
+.bg-image-div-6 {
+  background-image: url('../styles/imagens/roupas/Foto6-frente.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin-bottom: 10px;
+  
+}
+
+/* Estilos para os parágrafos de descrição, preço e parcelamento */
+
+.clothes-card p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px; /* Adicione margem inferior para espaço entre os parágrafos */
+}
 }

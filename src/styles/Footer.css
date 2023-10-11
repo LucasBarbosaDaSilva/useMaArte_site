@@ -1,13 +1,14 @@
 
 @media only screen and (max-width: 480px) {
   #footer-container {
-    position: relative; /* Mantém o footer no lugar mesmo quando a página é rolada */
+    position: fixed; /* Torna o footer fixo na tela */
     bottom: 0; /* Coloca o footer na parte inferior da janela do navegador */
-    left: 1vh; /* Alinha o footer à esquerda da janela do navegador */
-    transform: translateY(117vh);
+    left: 0; /* Alinha o footer à esquerda da janela do navegador */
     width: 100%; /* Faz o footer ocupar toda a largura da janela */
-    padding: 10px; /* Adiciona algum espaço ao redor do conteúdo do footer */
-    align-items: center;
+    background-color: #3333330b; /* Cor de fundo para o footer (opcional) */
+    color: #fff; /* Cor do texto do footer (opcional) */
+    padding: 5px; /* Adiciona espaço ao redor do conteúdo do footer */
+    text-align: center;
   }
   
   #footer-container a {
@@ -33,7 +34,7 @@
     position: relative; /* Mantém o footer no lugar mesmo quando a página é rolada */
     bottom: 0; /* Coloca o footer na parte inferior da janela do navegador */
     left: 5vh; /* Alinha o footer à esquerda da janela do navegador */
-    transform: translateY(265vh);
+    transform: translateY(263vh);
     width: 100%; /* Faz o footer ocupar toda a largura da janela */
     padding: 10px; /* Adiciona algum espaço ao redor do conteúdo do footer */
     align-items: center;
