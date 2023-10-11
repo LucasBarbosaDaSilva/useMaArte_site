@@ -4,8 +4,7 @@
     grid-template-rows: 1fr 1fr;
     width: auto; /* Defina a largura de volta para o tamanho automático */
     padding: 2vh; /* Ajuste o preenchimento para telas menores */
-    margin-left: 5vh;
-    margin-top: 25vh; /* Remova a margem esquerda */
+    margin-top: 28vh; /* Remova a margem esquerda */
   }
 
   /* Ajuste a altura dos cards conforme necessário para telas menores */

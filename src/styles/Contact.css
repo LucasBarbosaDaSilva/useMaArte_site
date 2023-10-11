@@ -6,15 +6,11 @@
     justify-content: center;
     background-color: rgba(216, 216, 216, 0.762);
    margin-top: 33vh;
-   margin-left: 3vh;
    padding: 10px;
   }
   
   /* Estilo para a primeira div (Informações para contato) */
-  .contact-page > div:first-child {
-    
-    
-  }
+ 
   
   .contact-page > div:first-child ul {
     list-style: none;
